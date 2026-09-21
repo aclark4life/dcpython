@@ -9,6 +9,11 @@
 }
 
 
+/* offset anchor targets so the fixed navbar doesn't cover them on jump */
+#about, #donate, #upcoming-events, #team {
+  scroll-margin-top: 90px;
+}
+
 /* navbar */
 .app-navbar {
   font-size: 13px;

@@ -21,8 +21,8 @@
                 </a>
                 <button class="navbar-toggler"
                         type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarResponsive"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarResponsive"
                         aria-controls="navbarResponsive"
                         aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -60,7 +60,7 @@
                 </p>
                 <div id="carousel-top"
                      class="carousel carousel-light slide"
-                     data-ride="carousel">
+                     data-bs-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <div class="block">
@@ -87,14 +87,14 @@
                     <a class="carousel-control-prev"
                        href="#carousel-top"
                        role="button"
-                       data-slide="prev">
+                       data-bs-slide="prev">
                         <h1 class="icon icon-chevron-thin-left" aria-hidden="true"></h1>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next"
                        href="#carousel-top"
                        role="button"
-                       data-slide="next">
+                       data-bs-slide="next">
                         <h1 class="icon icon-chevron-thin-right" aria-hidden="true"></h1>
                         <span class="sr-only">Next</span>
                     </a>
@@ -150,12 +150,12 @@
                  aria-label="Basic example">
                 <button type="button"
                         class="btn btn-outline-dark"
-                        data-toggle="modal"
-                        data-target="#donorModal">Donors</button>
+                        data-bs-toggle="modal"
+                        data-bs-target="#donorModal">Donors</button>
                 <button type="button"
                         class="btn btn-outline-dark"
-                        data-toggle="modal"
-                        data-target="#sponsorModal">Sponsors</button>
+                        data-bs-toggle="modal"
+                        data-bs-target="#sponsorModal">Sponsors</button>
             </div>
         </div>
         <div class="block block-bordered-lg pb-0 app-block-stats" id="about">
@@ -205,20 +205,20 @@
                  aria-label="Basic example">
                 <button type="button"
                         class="btn btn-outline-dark"
-                        data-toggle="modal"
-                        data-target="#missionModal">Mission Statement</button>
+                        data-bs-toggle="modal"
+                        data-bs-target="#missionModal">Mission Statement</button>
                 <button type="button"
                         class="btn btn-outline-dark"
-                        data-toggle="modal"
-                        data-target="#financeModal">Financial Statement</button>
+                        data-bs-toggle="modal"
+                        data-bs-target="#financeModal">Financial Statement</button>
                 <button type="button"
                         class="btn btn-outline-dark"
-                        data-toggle="modal"
-                        data-target="#cocModal">Code of Conduct</button>
+                        data-bs-toggle="modal"
+                        data-bs-target="#cocModal">Code of Conduct</button>
                 <button type="button"
                         class="btn btn-outline-dark"
-                        data-toggle="modal"
-                        data-target="#covidModal">COVID/Health & Safety Policy</button>
+                        data-bs-toggle="modal"
+                        data-bs-target="#covidModal">COVID/Health & Safety Policy</button>
             </div>
         </div>
         <!-- Modals -->
@@ -231,7 +231,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">Code of Conduct</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -254,7 +254,7 @@
                         <em>This Code of Conduct has been adapted from the Plone Foundation and is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported license.</em>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -268,7 +268,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">Code of Conduct</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -340,14 +340,15 @@
                             <br>
                             <em>DC Python Meetup Organizing Team</em>
                         </p>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
-            <div class="modal fade"
-                 id="missionModal"
+        </div>
+        <div class="modal fade"
+             id="missionModal"
                  tabindex="-1"
                  aria-labelledby="exampleModalLabel"
                  aria-hidden="true">
@@ -355,7 +356,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Mission Statement</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -365,7 +366,7 @@
                             </p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -379,7 +380,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Financial Statement</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -389,7 +390,7 @@
                             </p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -403,7 +404,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Thank You</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -436,7 +437,7 @@
                             </ul>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -450,7 +451,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Thank You</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -501,7 +502,7 @@
                             </ol>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -509,13 +510,13 @@
             <div class="block block-bordered-lg pl-0 pt-0 pr-0">
                 <div id="carousel-example-generic"
                      class="carousel carousel-light slide"
-                     data-ride="carousel">
+                     data-bs-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic"
-                            data-slide-to="0"
+                        <li data-bs-target="#carousel-example-generic"
+                            data-bs-slide-to="0"
                             class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-bs-target="#carousel-example-generic" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carousel-example-generic" data-bs-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
@@ -543,14 +544,14 @@
                     <a class="carousel-control-prev"
                        href="#carousel-example-generic"
                        role="button"
-                       data-slide="prev">
+                       data-bs-slide="prev">
                         <h1 class="icon icon-chevron-thin-left" aria-hidden="true"></h1>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next"
                        href="#carousel-example-generic"
                        role="button"
-                       data-slide="next">
+                       data-bs-slide="next">
                         <h1 class="icon icon-chevron-thin-right" aria-hidden="true"></h1>
                         <span class="sr-only">Next</span>
                     </a>
@@ -720,11 +721,8 @@
                     </div>
                 </div>
             </div>
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/popper.min.js"></script>
-            <script src="assets/js/toolkit.js"></script>
-            <script src="assets/js/application.js"></script>
             <script src="assets/js/events.js"></script>
+            <script src="dist/bundle.js"></script>
             <script src="https://kit.fontawesome.com/b99cce5dfd.js"
                     crossorigin="anonymous"></script>
         </body>

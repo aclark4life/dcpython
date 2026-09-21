@@ -4,6 +4,7 @@ default:
 # Sync the static site to the dcpython.org S3 bucket and invalidate CloudFront.
 deploy:
     aws s3 sync . s3://dcpython.org/ \
+        --acl public-read \
         --exclude ".git/*" \
         --exclude ".github/*" \
         --exclude "node_modules/*" \
